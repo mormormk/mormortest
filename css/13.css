@@ -23,6 +23,7 @@ html {
 }
 img {
   max-width: 100%;
+  /* object-fit: cover; */
 }
 a:hover {
   color: #57b7d8;
@@ -186,7 +187,7 @@ a:hover img {
     }
   }
 }
-/* ===============↓sp-naviここから↓===================== */
+/* ===============↓ SP用naviここから ↓=============== */
 /* -------sp-navi ボタン設定------- */
 .sp-navi-check {
   display: none;
@@ -397,6 +398,69 @@ a:hover img {
 }
 /* ===============↑sp-naviここまで↑===================== */
 
-/* --------------------topロゴ---------------------- */
 /* ============メイン============== */
+.home-main {
+}
+/* -------------------お知らせ----------------- */
+.top-visual {
+}
+.top-visual > .notice {
+  display: flex;
+}
+.notice-icon {
+  width: 11%;
+  background-color: #ff7d6e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+}
+.notice-icon img {
+}
+.notice-box {
+  width: 89%;
+  font-size: 12px;
+  background-color: #fee3e1;
+  padding: 10px 5px;
+}
+.notice-txt::before {
+  display: block;
+  float: left;
+  height: 20px;
+  content: ">";
+  font-size: 10px;
+  margin: 0 3px;
+}
+.notice-txt {
+  float: right;
+}
+
+/* ---------------メインビジュアル------------ */
+.mv {
+}
+.mv-list {
+  width: 100%;
+}
+.mv-list img {
+}
+/* -------slick設定----- */
+.slick-prev,
+.slick-next {
+  display: block;
+  width: 20px;
+  height: 20px;
+  font-size: 10px;
+  padding: 5px;
+  background-color: rgba(107, 219, 247, 0.466);
+}
+
+.slick-prev {
+  bottom: 0;
+  left: 0;
+}
+.slick-next {
+  bottom: 0;
+  left: 35px;
+}
+
 /* ============フッター============= */
