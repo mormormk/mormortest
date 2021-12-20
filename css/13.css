@@ -462,7 +462,7 @@ a:hover img {
   height: 20px;
   font-size: 10px;
   padding: 5px;
-  background-color: rgba(238, 246, 248, 0.938);
+  background-color: rgba(255, 255, 255, 0.664);
 }
 .slick-prev {
   bottom: 0;
