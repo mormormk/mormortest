@@ -5,8 +5,19 @@ $(function () {
     speed: 1000,
     autoplaySpeed: 2000,
     fade: true,
-    prevArrow: '<div class="slick-prev s-arrow">></div>',
-    nextArrow: '<div class="slick-next s-aroow"><</div>',
+    prevArrow: '<div class="slick-prev">></div>',
+    nextArrow: '<div class="slick-next"><</div>',
+    dots: false,
+
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          dots: true,
+          arrows: false,
+        },
+      },
+    ],
   });
 });
 

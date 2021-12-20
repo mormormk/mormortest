@@ -21,6 +21,10 @@ html {
   max-width: 1500px;
   padding: 0 18px;
 }
+.wrapper2 {
+  max-width: 1500px;
+  padding: 0 12px;
+}
 img {
   max-width: 100%;
   /* object-fit: cover; */
@@ -44,8 +48,9 @@ a:hover img {
 }
 .site-top-logo {
   width: 105px;
-  margin: 20px auto;
+  margin: 0 auto;
   z-index: 5;
+  padding-top: 20px;
 }
 .site-top-img {
 }
@@ -97,7 +102,7 @@ a:hover img {
   width: 30px;
   right: -250px;
   left: 0;
-  top: 37px;
+  top: 60px;
   margin: 0 auto;
   z-index: -1;
   opacity: 0;
@@ -398,7 +403,9 @@ a:hover img {
 }
 /* ===============↑sp-naviここまで↑===================== */
 
-/* ============メイン============== */
+/* =============================
+============メイン==============
+============================== */
 .home-main {
 }
 /* -------------------お知らせ----------------- */
@@ -437,26 +444,29 @@ a:hover img {
 
 /* ---------------メインビジュアル------------ */
 .mv {
+  margin: 0 auto 30px;
 }
 .mv-list {
   width: 100%;
+  height: auto;
 }
 .mv-list img {
 }
 /* -------slick設定----- */
 .slick-prev,
 .slick-next {
+  position: absolute;
+  z-index: 2;
   display: block;
   width: 20px;
   height: 20px;
   font-size: 10px;
   padding: 5px;
-  background-color: rgba(107, 219, 247, 0.466);
+  background-color: rgba(238, 246, 248, 0.938);
 }
-
 .slick-prev {
   bottom: 0;
-  left: 0;
+  left: 10px;
 }
 .slick-next {
   bottom: 0;
