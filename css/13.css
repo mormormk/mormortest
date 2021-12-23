@@ -19,8 +19,8 @@ html {
 }
 .wrapper {
   max-width: 1500px;
-  padding: 0 18px;
-  margin: 0 auto;
+  /* padding: 0 18px; */
+  margin: 0 18px;
 }
 /* .wrapper2 {
   max-width: 1500px;
@@ -504,7 +504,7 @@ a:hover img {
 
 /* ----------------sec フライト情報------------- */
 .flight-info {
-  margin: 0 10px 30px;
+  margin: 0 30px 50px;
 }
 .flight-info-title {
   background-color: #74b749;
@@ -545,8 +545,124 @@ a:hover img {
 }
 
 /* -------------sec メインコンテンツ------------ */
+.main-info {
+  position: relative;
+  padding: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: #e9e9e9 1px solid;
+}
+.main-info::after {
+  position: absolute;
+  top: 20px;
+  left: -18px;
+  width: 100vw;
+  height: 330px;
+  content: "";
+  background-color: #e1edce;
+  z-index: -1;
+  transform: skewY(3deg);
+}
 
+.main-info-left {
+  background-color: white;
+  width: 100%;
+  padding-bottom:10px ;
+}
+.main-info-right {
+  background-color: #b4d79c;
+  width: 100%;
+  padding-bottom: 30px;
+}
+.info-inner {
+  width: 80%;
+  margin: 0 auto;
+}
+/* -------sec-共通タイトル------ */
+.main-info-title {
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  position: relative;
+}
+}
+.main-info-left > .main-info-title {
+  font-size: 24px;
+}
+.main-info-right > .main-info-title {
+  font-size: 20px;
+}
+/* --タイトル中身-- */
+.title-txt {
+  display: inline-block;
+}
+.title-underline {
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #000;
+  height: 1px;
+  margin: 2px 0 2px;
+}
+.title-underline-2 {
+  display: block;
+  border-bottom: 1px solid #666;
+  height: 1px;
+  margin: 0 auto;
+}
+.main-info-title img {
+  width: 110px;
+  position: absolute;
+  right: 20px;
+  top: -40px;
+}
+
+.btn {
+  display: block;
+  margin: 20px auto;
+  width: 125px;
+  height: 33px;
+  border: #888 solid 1px;
+  text-align: center;
+}
+
+/* -------left-ニュース---------- */
+.news-list {
+}
+.news-list li {
+  padding: 10px 0;
+  border-bottom: grey solid 1px;
+}
+.news-list p {
+  padding: 2px;
+}
+
+.news-date {
+  font-size: 14px;
+}
+.news-title {
+  font-size: 13px;
+}
+
+/* -------right-ライブカメラ----- */
+.home-camera {
+}
+.camera-area {
+  width: 280px;
+  height: 180px;
+  background-color: #888;
+}
+/* -------right-ツイッター------- */
+.home-twitter {
+}
 /* -------------aside インスタグラム------------ */
-/* -----------------aside バナー--------------- */
+/* -----------リスト-------- */
+/* ---------moreボタン------- */
 
-/* ============フッター============= */
+/* -----------------aside ads--------------- */
+/* ---------あ------- */
+
+/* -----------------aside バナー--------------- */
+/* ---------あ------- */
+
+/* ============フッター============= */ ;
