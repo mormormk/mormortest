@@ -10,7 +10,7 @@
     <title>練習（新町川空港(仮)）</title>
 </head>
 <body>
-    <header class=" header wrapper">
+    <header class=" header wrapper" id="top">
         <div class="site-top">
             <h1 class="site-top-logo">
                 <img src="./img/sitelogo.svg" alt="サイトロゴ" class="site-top-img">
@@ -111,23 +111,15 @@
                 </ul>
             </div>
         </section>
-
-
-
-
-
-
-
         <section class="main-info wrapper">
-
             <div class="main-info-left">
-                <h2 class="main-info-title">
+                <h2 class="main-info-title left-title">
                     <span class="title-txt">
                     NEWS
                     <span class="title-underline"></span>
                     <span class="title-underline-2"></span>
                     <img src="./img/news.svg" alt="">
-                </span>
+                    </span>
                 </h2>
                 <ul class="news-list info-inner">
                     <li>
@@ -149,38 +141,51 @@
                         </a>
                     </li>
                 </ul>
-
-                <button class="btn" type="button" onclick="location.href=''">新着記事一覧</button>
-
+                <button class="btn" type="button" onclick="location.href=''">新着情報一覧</button>
             </div>
-
             <div class=" main-info-right">
                 <div class="home-camera info-inner">
-                    <h2 class="main-info-title">                    <span class="title-txt">
+                    <h2 class="main-info-title">
+                        <span class="title-txt">
                         Live Camera
                         <span class="title-underline"></span>
-                        <span class="title-underline-2"></span></span>
-    </span>
+                        <span class="title-underline-2"></span>
+                        </span>
                     </h2>
                     <div class="camera-area ">
                         <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/xfxVLJuBCEM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
                     </div>
                 </div>
                 <div class="home-twitter info-inner">
-                    <h2 class="main-info-title">                    <span class="title-txt">
+                    <h2 class="main-info-title">
+                        <span class="title-txt">
                         Twitter
                         <span class="title-underline"></span>
-                        <span class="title-underline-2"></span></span>
-    </span></h2>
-                    <span class="title-underline"></span>
+                        <span class="title-underline-2"></span>
+                        </span>
+                    </h2>
                     <a class="twitter-timeline " data-width="343" data-height="315" href="https://twitter.com/TwitterJP?ref_src=twsrc%5Etfw">Tweets by TwitterJP</a>
                     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
             </div>
         </section>
-        <!-- <aside class="instagram">
-            <h2 class="ins-title">空港のInstagramをチェックしよう！</h2>
-            <ul class="ins-list-1">
+        <aside class="home-instagram">
+            <h2 class="ins-title">
+                <img src="./img/instagram (1).svg" alt="">
+                <p class="ins-txt">
+                    <span>しんまちがわ空港のInstagramを</span>
+                    <span>チェックしよう！</span>
+                </p>
+            </h2>
+            <ul class="ins-list">
+                <li><a href=""><img src="./img/iwate1.jpg" alt=""></a></li>
+                <li><a href=""><img src="./img/iwate2.jpg" alt=""></a></li>
+                <li><a href=""><img src="./img/iwate3.jpg" alt=""></a></li>
+                <li><a href=""><img src="./img/iwate4.jpg" alt=""></a></li>
+                <li><a href=""><img src="./img/iwate5.jpg" alt=""></a></li>
+                <li><a href=""><img src="./img/iwate6.jpg" alt=""></a></li>
+                <li><a href=""><img src="./img/iwate7.jpg" alt=""></a></li>
+                <li><a href=""><img src="./img/iwate8.jpg" alt=""></a></li>
                 <li><a href=""><img src="./img/iwate1.jpg" alt=""></a></li>
                 <li><a href=""><img src="./img/iwate2.jpg" alt=""></a></li>
                 <li><a href=""><img src="./img/iwate3.jpg" alt=""></a></li>
@@ -190,49 +195,81 @@
                 <li><a href=""><img src="./img/iwate7.jpg" alt=""></a></li>
                 <li><a href=""><img src="./img/iwate8.jpg" alt=""></a></li>
             </ul>
-            <ul class="ins-list-2">
-                <li><a href=""><img src="./img/iwate1.jpg" alt=""></a></li>
-                <li><a href=""><img src="./img/iwate2.jpg" alt=""></a></li>
-                <li><a href=""><img src="./img/iwate3.jpg" alt=""></a></li>
-                <li><a href=""><img src="./img/iwate4.jpg" alt=""></a></li>
-                <li><a href=""><img src="./img/iwate5.jpg" alt=""></a></li>
-                <li><a href=""><img src="./img/iwate6.jpg" alt=""></a></li>
-                <li><a href=""><img src="./img/iwate7.jpg" alt=""></a></li>
-                <li><a href=""><img src="./img/iwate8.jpg" alt=""></a></li>
-            </ul>
-            <button class="btn"></button>
-        </aside> -->
-        <aside class="home-ads wrapper">
-            <ul class="">
-                <li></li>
+            <button class="btn">more</button>
+        </aside>
+        <aside class="home-banner">
+            <ul class="banner-box">
+                <li><a href=""><img src="./img/グループ 1.png" alt=""></a></li>
+                <li><a href=""><img src="./img/グループ 2.png" alt=""></a></li>
+                <li><a href=""><img src="./img/グループ 3.png" alt=""></a></li>
+                <li><a href=""><img src="./img/グループ 1.png" alt=""></a></li>
+                <li><a href=""><img src="./img/グループ 2.png" alt=""></a></li>
+                <li><a href=""><img src="./img/グループ 3.png" alt=""></a></li>
+                <li><a href=""><img src="./img/グループ 1.png" alt=""></a></li>
+                <li><a href=""><img src="./img/グループ 2.png" alt=""></a></li>
+                <li><a href=""><img src="./img/グループ 3.png" alt=""></a></li>
+                <li><a href=""><img src="./img/グループ 1.png" alt=""></a></li>
             </ul>
         </aside>
-        <aside class="home-banner wrapper"></aside>
+        <aside class="home-ads">
+            <ul class="ads-wrap  wrapper">
+                <li>
+                    <a href="">
+                        <div class="ads-movie"></div>
+                        <p class="ads-title">ふらっと四国2020</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <div class="ads-book"><img src="./img/ads-book.png" alt=""></div>
+                        <p class="ads-title"><span>ふらっと四国<br class="txt-br">2021デジタルブック</span></p>
+                    </a>
+                </li>
+            </ul>
+        </aside>
     </main>
+
+
+
     <footer class="footer">
         <div class="footer-inner wrapper">
-            <div class="footerlogo">
-                <img src="" alt="">
-                <div class="footer-copy"></div>
-            </div>
-            <div class="footer-info">
-                <ul class="">
-                    <li></li>
-                </ul>
+
+            <div class="footer-logo">
+                <img src="./img/sitelogo.svg" alt="">
+                <div class="footer-copy">©2021 Iwate Hanamaki Airport.<br class="txt-br">All Rights Reserved.</div>
             </div>
             <div class="footer-anime">
-                <img src="" alt="" class="">
-                <img src="" alt="" class="">
+                <img src="./img/header-cloud1.svg" alt="" class="">
+                <img src="./img/header-cloud2.svg" alt="" class="">
             </div>
+
+
+            <div class="footer-info">
+                <ul class="footer-info-navi">
+                    <li>会社概要</li>
+                    <li>個人情報</li>
+                    <li>Q＆A</li>
+                    <li>広告について</li>
+                </ul>
+                <div class="footer-info-address">
+                    <p>徳島県空港ターミナルビル株式会社</p>
+                    <p>〒770-7777   徳島県徳島市新町川町5丁目53番地</p>
+                    <p>TEL：088-666-6666</p>
+                    <p>FAX：088-123-4567</p>
+                </div>
+            </div>
+
         </div>
+
         <div class="topback-btn">
-            <img src="" alt="">
+            <a href="#top"><img src="./img/goto-top.svg" alt="topに戻る"></a>
         </div>
+
     </footer>
 
-    <!------------------------------------------
-    -----------spグローバルナビ------------------
-        ---------------------------------------->
+    <!----------------------------------------------------------
+    ----------------------spグローバルナビ-----------------------
+        ------------------------------------------------------->
     <input class="sp-navi-check" id="gnavi" type="checkbox">
     <label class="sp-navi-label" for="gnavi">
         <div class="sp-navi-btn"><span></span><span></span><span>
