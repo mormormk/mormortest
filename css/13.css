@@ -2,6 +2,12 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap");
 
+/* =========モバイルファースト/ブレイクポイント============ */
+@media screen and (min-width: 600px) {
+}
+@media screen and (min-width: 1025px) {
+}
+
 /* ============共通設定============= */
 
 body {
@@ -478,9 +484,10 @@ a:hover img {
 }
 .mv-list {
   width: 100%;
-  height: auto;
 }
 .mv-list img {
+  height: auto;
+  object-fit: contain;
 }
 
 /* -----------slick設定--------- */
@@ -887,4 +894,10 @@ a:hover img {
   bottom: 20px;
   right: 10px;
   z-index: 20;
+  opacity: 0;
+  transition: all 0.65s;
+}
+.isActive {
+  opacity: 1;
+  transition: all 0.65s;
 }
